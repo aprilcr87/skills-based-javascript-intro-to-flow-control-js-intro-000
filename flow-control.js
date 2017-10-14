@@ -12,7 +12,7 @@ function teenager(age) {
   var age = age>=13 && age<=19;
 if(age === true) {
   console.log('You are a teenager!');
-}else {
+}else (age === false) {
   console.log('You are not a teenager.');
 }
 }
