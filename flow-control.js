@@ -1,5 +1,5 @@
 function basicTeenager(age) {
-var age = age>=13 && age<=19;
+var basicTeenager = age>=13 && age<=19;
   if(age === true) {
     return 'You are a teenager!'
   }
@@ -9,10 +9,10 @@ basicTeenager(14);
 
 
 function teenager(age) {
-  var age = age>=13 && age<=19;
+  var teenager = age>=13 && age<=19;
 if(age === true) {
   console.log('You are a teenager!');
-}else (age === false) {
+}else {
   console.log('You are not a teenager.');
 }
 }
@@ -21,7 +21,7 @@ teenager(20);
 
 
 function ageChecker(age) {
-  var age = age>=13 && age<=19;
+  var ageChecker = age>=13 && age<=19;
 if(age === true){
   console.log('You are a teenager!');
 }else if(age <=12) {
@@ -36,7 +36,7 @@ ageChecker(4);
 
 
 function ternaryTeenager(age) {
-var age = age>=13 && age<=19;
+var ternaryTeenager = age>=13 && age<=19;
 return ternaryTeenager==='age'?'You are a teenager.':'You are not a teenager.';
 }
 ternaryTeenager(15);
