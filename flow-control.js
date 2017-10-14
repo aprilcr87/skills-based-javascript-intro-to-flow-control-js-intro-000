@@ -25,7 +25,7 @@ if(ageChecker === true){
   return 'You are a teenager!'
 }else if(ageChecker <=12) {
   return 'You are a kid'
-} else if(ageChecker >19){
+} else if(ageChecker >20){
   return 'You are a grown up.'
 }
 }
