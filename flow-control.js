@@ -5,7 +5,7 @@ var basicTeenager = 'age'>=13 && 'age'<=19;
   }
 
 }
-  basicTeenager(14);
+basicTeenager(14);
 
 
 function teenager(age) {
@@ -22,7 +22,7 @@ teenager(20);
 
 function ageChecker(age) {
   var ageChecker = 'age'>=13 && 'age'<=19;
-if(age>=13 && age<=19){
+if(age === true){
   console.log('You are a teenager!');
 }else if(age <=12) {
   console.log('You are a kid');
