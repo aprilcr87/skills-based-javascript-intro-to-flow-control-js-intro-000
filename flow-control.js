@@ -55,3 +55,4 @@ switch(age){
 }
 
 }
+switchAge(16);
