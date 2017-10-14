@@ -1,6 +1,8 @@
 function basicTeenager(age) {
+var basicteenager = 'age';
 var age = 13,14,15,16,17,18,19;
-if (age === true);{
+
+if (basicTeenager==age);{
   console.log('You are a teenager!');
 }}
 
