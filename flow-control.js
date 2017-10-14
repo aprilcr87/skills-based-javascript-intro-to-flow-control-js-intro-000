@@ -26,7 +26,7 @@ if(ageChecker === true){
 }else if(ageChecker === false && age<=12) {
   return 'You are a kid'
 } else if(ageChecker === false && age>=20){
-  return 'You are a grownup.'
+  return 'You are a grownup'
 }
 }
 ageChecker(4);
