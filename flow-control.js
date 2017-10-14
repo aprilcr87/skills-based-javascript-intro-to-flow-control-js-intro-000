@@ -21,11 +21,11 @@ teenager(20);
 
 function ageChecker(age) {
   var ageChecker = age>=13 && age<=19;
-if(ageChecker === age>=13 && age<=19 ){
+if(ageChecker === true){
   return 'You are a teenager!'
-}else if(ageChecker === age<=12) {
+}else if(ageChecker === false && age<=12) {
   return 'You are a kid'
-} else if(ageChecker === age>=20){
+} else if(ageChecker === false && age>=20){
   return 'You are a grownup.'
 }
 }
